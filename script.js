@@ -98,7 +98,6 @@ setTimeout( () => {
     for (i = 0; i < last.length; i++) {
         let syllabeGenerated = generateRandomSyllabe();
         let siblingLast = document.getElementById(`${i}`);
-        console.log(siblingLast.textContent)
         while (siblingLast.textContent == syllabeGenerated) {
             syllabeGenerated = generateRandomSyllabe();
         }
